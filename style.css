@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    font-family: "Poppins";
+    -webkit-font-smoothing: antialiased;
+    background-color: white;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    margin: 0 auto; 
+    max-width: 1200px;
+    width: 100%;
+
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.lupa_icon {
+    float: right;
+    width: 19px;
+    height: auto;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 40px 0 40px;
+
+height: 100px;
+
+background-color: #e43071;
+margin: 0;
+}
+
+.logo {
+    position: relative;
+
+    font-size: 40px;
+    line-height: 1.095;
+    font-weight: 800;
+    color: white;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+span.lyfe {
+    color: #e999b6;
+}
+
+.header__list {
+display: flex;
+align-items: center;
+margin: 0 auto;
+column-gap: 70px;
+
+a{
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+    opacity: 0.9;
+    font-size: 16px;
+}
+}
+
+.header__nav {
+    width: 100%;
+    max-width: 1400px;
+    padding-inline: 15px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(255, 255, 255);
+    color: #e43071;
+
+    height: 50px;
+    line-height: 46px;
+    width: 166px;
+
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 200px;
+    column-gap: 40px;
+    text-decoration: none;
+}
+
+.welcome {
+    height: 705px;
+
+    background-image: url("./images/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome__subtitle {
+    position: relative;
+    padding-top: 150px;
+
+    font-size: 120px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.btn__welcome {
+    display: flex;
+    position: relative;
+
+
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    background-color: #e43071;
+    color: #ffffff;
+
+    height: 68px;
+    width: 237px;
+    font-size: 16px;
+
+    font-weight: 500;
+    border-radius: 39px;
+    margin: 0 auto;
+}
+
+.meet {
+    height: 800px;
+}
+
+.twotogether {
+    display: flex;
+    flex-direction: row;
+}
+
+.div_text {
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 40px;
+    flex: 0 0 50%;
+}
+
+.meet_subtitle {
+    font-size: 50px;
+    color: #e43071;
+    margin: 0 auto;
+}
+.meet_text {
+    position: relative;
+
+    margin: 0 auto;
+
+    font-size: 16px;
+    line-height: 40px;
+    text-align: left;
+    color: #000000;
+    opacity: 0.9;
+}
+.meet_btn {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0px 0px 2px 2px #e43071;
+
+    background-color: #ffffff;
+    color: #e43071;
+
+    height: 60px;
+    width: 250px;
+    font-size: 16px;
+
+    font-weight: 500;
+    border-radius: 40px;
+}
+.img_gantel {
+position: relative;
+top: 120px; 
+
+background-position: center;
+background-size: cover;
+}
+
+
+.become {
+    background-image: url("./images/sportgirl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 705px;
+}
+
+.become__subtitle {
+    position: relative;
+    margin: 0;
+    padding-top: 225px;
+
+    font-size: 80px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.become__title {
+    position: relative;
+
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn__become {
+    display: flex;
+    position: relative;
+
+
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    background-color: #e43071;
+    color: #ffffff;
+
+    height: 68px;
+    width: 237px;
+    font-size: 16px;
+
+    font-weight: 500;
+    border-radius: 39px;
+    margin: 0 auto;
+}
+
+.twotogether_premium {
+    display: flex;
+    flex-direction: row;
+}
+
+.premium {
+    height: 800px;
+}
+
+.div_text_premium {
+    display: flex;
+    position: relative;
+    top: 100px;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 40px;
+    flex: 0 0 50%;
+}
+
+.premium_subtitle {
+    font-size: 50px;
+    color: #e43071;
+    margin: 0 auto;
+}
+.premium_text {
+    position: relative;
+
+    margin: 0 auto;
+
+    font-size: 16px;
+    line-height: 40px;
+    text-align: left;
+    color: #000000;
+    opacity: 0.9;
+}
+
+.premium_btn {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0px 0px 2px 2px #e43071;
+
+    background-color: #ffffff;
+    color: #e43071;
+
+    height: 60px;
+    width: 250px;
+    font-size: 16px;
+
+    font-weight: 500;
+    border-radius: 40px;
+}
+
+.img_gym {
+    position: relative;
+    top: 120px; 
+    width: 700px;
+    height: 500px;
+    
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .header__list {
+        display: none;
+    }
+
+    .lupa_icon {
+        position: relative;
+        margin-left: 350px;
+    }
+
+    .btn {
+        display: flex;
+    }
+    
+    
+    .welcome {
+        width: 768px;
+        background-position: center;
+
+    }
+
+    .welcome__subtitle {
+        position: relative;
+        padding-top: 140px;
+    
+        font-size: 80px;
+    }
+
+    .btn__welcome {
+        height: 80px;
+        width: 260px;
+        font-size: 25px;
+    
+        font-weight: 550;
+        border-radius: 50px;
+        margin: 0 auto;
+    }
+}
